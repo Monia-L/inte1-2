@@ -1,0 +1,109 @@
+hr{
+    border: solid 0.5px;
+}
+nav > a {
+    margin-left: -10px;
+}
+section:not(.carousel){
+    margin-left: 1%;
+}
+
+
+h2 > span{
+font-size: 18px;
+}
+
+.icon{
+    position: relative;
+}
+
+i{
+    position: absolute;
+    top: 1%;
+    padding: 9px 9px;
+    color: gray;
+}
+
+#joinHr{
+    margin-top: 40px;
+}
+#joinUs input{
+    display: block;
+    margin : auto;
+}
+
+
+#reward input{
+    display: block;
+    margin : auto;
+}
+#reward img
+{
+    display: block;
+   margin-left: 95px !important;
+}
+.reward {
+    padding: 10px 0;
+
+}
+
+
+.card{
+  
+ 
+    margin:auto;
+    overflow: hidden;
+  }
+  h1{
+    color:white;
+    font-size : 20px;
+     margin-top : 35%;
+  }
+  
+  .card-body{
+    display: flex;
+    text-align : center;
+    position : relative;
+    flex-direction: column;
+  }
+  .text{
+    background-color:#E6E6FA;
+    display: flex;
+    border: none;
+    border-radius : 20px;
+    margin : 30px 30px auto 30px;
+    text-align : center;
+    flex-direction: column;
+    font-size : 20px;
+  }
+  
+    
+  .card-img-top{
+   margin:auto;
+   position : absolute;
+   opacity : 0.5;
+    
+  }  
+  .orange{
+    color: #FF4500;
+    font-size: 25px;
+  }
+  
+  .block-card:hover img{
+    opacity : 1;
+  }
+  .block-card:hover .card-text{
+    display:none;
+  }
+  .block-card:hover h1{
+    margin-top : 90%;
+    font-size :30px;
+    text-shadow: none;
+    color: black;
+  }
+  .golum{
+    max-width: 10%;
+  }
+  footer a{
+      color: white;
+  }
